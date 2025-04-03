@@ -7,7 +7,7 @@ Employee:\
 ✅ View past survey responses
 
 Admin:\
-✅ Login
+✅ Login \
 ✅ View all employee responses\
 ✅ Export survey data (CSV/JSON)
 
@@ -82,19 +82,19 @@ GET /api/surveys/admin → Get all employee surveys
 
 <ins>Employee</ins>
 
-Register/Login
+✅ Register/Login
 
-Submit a survey
+✅ Submit a survey
 
-View past submissions
+✅ View past submissions
 
 <ins>Admin</ins>
 
-Login
+✅ Login
 
-View employee responses
+✅ View employee responses
 
-Export data
+✅ Export data
 
 **Future Improvements** 
 
