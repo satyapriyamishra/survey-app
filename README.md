@@ -12,11 +12,11 @@ Admin:\
 ✅ Export survey data (CSV/JSON)
 
 **Tech Stack**\
-Frontend: ReactJS, React Router, Axios\
+Frontend: ReactJS, React Router, Axios
 
-Backend: Node.js, Express.js, JWT Authentication\
+Backend: Node.js, Express.js, JWT Authentication
 
-Database: MongoDB + Mongoose\
+Database: MongoDB + Mongoose
 
 **Setup Instructions**
 
