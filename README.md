@@ -1,12 +1,12 @@
 This is a full-stack Employee Pulse Survey Application built with ReactJS (Frontend), Node.js + Express (Backend), and MongoDB (Database). It allows employees to submit surveys and admins to view & export responses.
 
-Features
-Employee
-✅ Register/Login
-✅ Submit a pulse survey
-✅ View past survey responses
+**Features
+Employee:\
+✅ Register/Login\
+✅ Submit a pulse survey\
+✅ View past survey responses\
 
-Admin
+Admin:
 ✅ Login
 ✅ View all employee responses
 ✅ Export survey data (CSV/JSON)
