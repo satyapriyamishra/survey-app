@@ -31,16 +31,18 @@ This is a **full-stack Employee Pulse Survey Application** built with **ReactJS 
 ### **1. Clone the Repository**  
 ```sh
 git clone https://github.com/satyapriyamishra/survey-app.git
-cd employee-pulse-survey
+cd employee-pulse-survey ```
 
 ### **2. Backend setup**
+```sh
 cd backend
-npm install
+npm install ```
 
 ### **3.  Create a .env file in the backend**  
+```sh
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
+JWT_SECRET=your_secret_key ```
 
 
 
