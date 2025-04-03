@@ -80,7 +80,7 @@ GET /api/surveys/admin → Get all employee surveys
 
 **Usage** 
 
-Employee
+<ins>Employee</ins>
 
 Register/Login
 
@@ -88,7 +88,7 @@ Submit a survey
 
 View past submissions
 
-Admin
+<ins>Admin</ins>
 
 Login
 
