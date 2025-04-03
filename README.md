@@ -22,38 +22,38 @@ Database: MongoDB + Mongoose\
 
 1. Clone the Repository
 
-    git clone https://github.com/satyapriyamishra/survey-app.git
+   ``` git clone https://github.com/satyapriyamishra/survey-app.git
 
-    cd employee-pulse-survey
+    cd employee-pulse-survey ```
 
 2.Backend Setup
 
-    cd backend
+   ``` cd backend
 
-    npm install
+    npm install```
 
 3. Create .env file in backend
 
-    PORT=5000
+   ``` PORT=5000
 
     MONGO_URI=your_mongodb_connection_string
 
-    JWT_SECRET=your_secret_key
+    JWT_SECRET=your_secret_key```
 
 4. Start Backend Server
 
-    npm start 
+   ``` npm start ```
 
 
 5. Install Frontend Dependencies
 
-    cd ../frontend
+   ``` cd ../frontend
 
-    npm install
+    npm install ```
 
 6. Start React App
 
-    npm start
+   ``` npm start ```
 
 Frontend will run on http://localhost:3000
 
@@ -61,20 +61,22 @@ Frontend will run on http://localhost:3000
 
 <ins>Authentication</ins>
 
+```
 POST /api/auth/register → Register User
 
 POST /api/auth/login → Login User
+```
 
 <ins>Employee APIs</ins>
 
-POST /api/surveys → Submit survey
+```POST /api/surveys → Submit survey
 
 
-GET /api/surveys → Get employee's past surveys
+GET /api/surveys → Get employee's past surveys```
 
 <ins>Admin APIs</ins>
 
-GET /api/surveys/admin → Get all employee surveys
+```GET /api/surveys/admin → Get all employee surveys```
 
 
 
