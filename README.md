@@ -20,47 +20,66 @@ Database: MongoDB + Mongoose\
 
 **Setup Instructions**
 
-1. Clone the Repository\
+1. Clone the Repository
+
     git clone https://github.com/satyapriyamishra/survey-app.git
 
     cd employee-pulse-survey
 
-2.Backend Setup\
-    cd backend\
+2.Backend Setup
+
+    cd backend
+
     npm install
 
-3. Create .env file in backend\
-    PORT=5000\
-    MONGO_URI=your_mongodb_connection_string\
+3. Create .env file in backend
+
+    PORT=5000
+
+    MONGO_URI=your_mongodb_connection_string
+
     JWT_SECRET=your_secret_key
 
-4. Start Backend Server\
+4. Start Backend Server
+
     npm start 
 
-Frontend Setup\
-5. Install Frontend Dependencies\
-    cd ../frontend\
-    npm install\
-6. Start React App\
-    npm start\
+
+5. Install Frontend Dependencies
+
+    cd ../frontend
+
+    npm install
+
+6. Start React App
+
+    npm start
+
 Frontend will run on http://localhost:3000
 
-**API Endpoints**\
-<ins>Authentication</ins>\
-POST /api/auth/register → Register User\
+**API Endpoints**
 
-POST /api/auth/login → Login User\
+<ins>Authentication</ins>
 
-<ins>Employee APIs</ins>\
-POST /api/surveys → Submit survey\
+POST /api/auth/register → Register User
 
-GET /api/surveys → Get employee's past surveys\
+POST /api/auth/login → Login User
 
-<ins>Admin APIs</ins>\
-GET /api/surveys/admin → Get all employee surveys\
+<ins>Employee APIs</ins>
+
+POST /api/surveys → Submit survey
 
 
-**Usage**
+GET /api/surveys → Get employee's past surveys
+
+<ins>Admin APIs</ins>
+
+GET /api/surveys/admin → Get all employee surveys
+
+
+
+**Usage** 
+
 Employee
 
 Register/Login
@@ -77,11 +96,15 @@ View employee responses
 
 Export data
 
-**Future Improvements** \
-🔹 Add survey analytics\
-🔹 Implement role-based access control\
+**Future Improvements** 
+
+🔹 Add survey analytics
+
+🔹 Implement role-based access control
+
 🔹 Improve UI/UX
 
-**License**\
+**License**
+
 MIT License
 
